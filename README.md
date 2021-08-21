@@ -1,7 +1,7 @@
 # python-yahoo-word
 從Yahoo抓取單字並存於MongoDB
 
-1. 準備單字列表, 例如多益題庫.txt \n
+1. 準備單字列表, 例如多益題庫.txt \r\n
     https://github.com/a0979470582/python-yahoo-word/blob/main/book/book/新多益核心單字.txt
 
 2. 走訪單字列表, 從Yahoo字典搜尋單字並取得html, 先存於MongoDB
