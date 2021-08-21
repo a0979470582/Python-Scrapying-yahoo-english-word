@@ -1,0 +1,19 @@
+# mongodump -d 資料庫名稱 -o 備份檔案
+mongodump -d blog -o blog-backup
+.bson 檔用來存放的是實際的資料，而 .json 檔則是用來存放欄位的描述。
+
+
+
+如果要打包這個資料夾，建議可以用 tar 來打包，例如：
+tar zcvf blog.tgz blog-backup
+就可以把這個資料夾打包成一個壓縮檔。
+
+
+解壓縮
+tar zxvf blog.tgz
+
+
+還原DB
+mongorestore -d blog2 --directoryperdb ./blog-backup/blog
+
+這樣就可以成功還原。如果資料庫已經存在的話，預設是不會還原並寫入的；如果要強制還原的話，可以加上 --drop 參數。
