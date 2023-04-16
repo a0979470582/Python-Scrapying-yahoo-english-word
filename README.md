@@ -10,5 +10,5 @@
 
 3. 最後我們 MongoDB 就擁有原單字列表中的每一個單字的中文解釋和例句，可做進一步使用。
 
-    輸出結果範例:[新多益核心單字.json](https://github.com/a0979470582/python-yahoo-word/blob/main/book/json/新多益核心單字.json)
+    輸出結果範例 [新多益核心單字.json](https://github.com/a0979470582/python-yahoo-word/blob/main/book/json/新多益核心單字.json)
     
