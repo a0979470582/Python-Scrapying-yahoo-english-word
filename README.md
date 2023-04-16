@@ -1,4 +1,4 @@
-# python-yahoo-word
+# python-yahoo-word(20210821)
 說明:
 
 透過爬蟲工具 SoupBeautiful 套件，自動從 Yahoo 奇摩字典 取得特定單字的詳細資訊，並儲存在本地的 MongoDB 資料庫以供查詢。
